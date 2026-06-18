@@ -1,0 +1,32 @@
+2026-06-18 19:29:57 - data-assistant - INFO - 数据助手启动中....
+2026-06-18 19:29:57 - data-assistant - DEBUG - 当前工作目录：...
+2026-06-18 19:29:57 - data-assistant - INFO - 数据助手启动完成
+2026-06-18 23:48:50 - data-assistant - INFO - 用户提问: 有哪些产品？列出产品名称和价格
+2026-06-18 23:48:51 - data-assistant - ERROR - DeepSeek API 调用失败: Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****5238 is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}
+2026-06-18 23:49:37 - data-assistant - INFO - 用户提问: 有哪些产品？列出产品名称和价格
+2026-06-18 23:49:37 - data-assistant - ERROR - DeepSeek API 调用失败: Error code: 401 - {'error': {'message': 'Authentication Fails, Your api key: ****5238 is invalid', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}
+2026-06-18 23:50:01 - data-assistant - INFO - 用户提问: 有哪些产品？列出产品名称和价格
+2026-06-18 23:50:03 - data-assistant - INFO - Agent 调用工具: get_database_schema
+2026-06-18 23:50:03 - data-assistant - ERROR - 工具执行失败 (get_database_schema): SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 8646799616 and this is thread id 6170210304.
+2026-06-18 23:50:04 - data-assistant - INFO - Agent 调用工具: query_database
+2026-06-18 23:50:04 - data-assistant - ERROR - SQL 执行失败: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 8646799616 and this is thread id 6170210304.
+2026-06-18 23:50:05 - data-assistant - INFO - Agent 调用工具: query_database
+2026-06-18 23:50:05 - data-assistant - ERROR - SQL 执行失败: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 8646799616 and this is thread id 6170210304.
+2026-06-18 23:50:35 - data-assistant - INFO - 用户提问: 有哪些产品？列出产品名称和价格
+2026-06-18 23:50:36 - data-assistant - INFO - Agent 调用工具: query_database
+2026-06-18 23:50:45 - data-assistant - INFO - 用户提问: 帮我画一个各产品销量的柱状图
+2026-06-18 23:50:46 - data-assistant - INFO - Agent 调用工具: get_database_schema
+2026-06-18 23:50:48 - data-assistant - INFO - Agent 调用工具: generate_chart
+2026-06-18 23:51:02 - data-assistant - INFO - 用户提问: 分析一下销售情况，写个简短的报告
+2026-06-18 23:51:03 - data-assistant - INFO - Agent 调用工具: get_database_schema
+2026-06-18 23:51:06 - data-assistant - INFO - Agent 调用工具: query_database
+2026-06-18 23:51:06 - data-assistant - INFO - Agent 调用工具: query_database
+2026-06-18 23:51:06 - data-assistant - INFO - Agent 调用工具: query_database
+2026-06-18 23:51:08 - data-assistant - INFO - Agent 调用工具: generate_report
+2026-06-18 23:52:59 - data-assistant - INFO - 用户提问: 各个产品总共卖了多少件？
+2026-06-18 23:53:01 - data-assistant - INFO - Agent 调用工具: get_database_schema
+2026-06-18 23:53:03 - data-assistant - INFO - Agent 调用工具: query_database
+2026-06-18 23:53:23 - data-assistant - INFO - 用户提问: 帮我画一个各产品销量的柱状图
+2026-06-18 23:53:24 - data-assistant - INFO - Agent 调用工具: get_database_schema
+2026-06-18 23:53:25 - data-assistant - INFO - Agent 调用工具: generate_chart
+2026-06-18 23:58:00 - data-assistant - INFO - 已创建默认管理员: admin / admin123

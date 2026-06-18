@@ -68,7 +68,7 @@ class Database:
         #   → 创建目录，parents=True 表示上级目录不存在也一并创建
         #   → exist_ok=True 表示目录已存在也不报错
 
-        self.conn = sqlite3.connect(str(self.db_path))
+        self.conn = sqlite3.connect(str(self.db_path), check_same_thread=False)
         # sqlite3.connect() → 连接到 SQLite 数据库文件
         # 如果文件不存在，SQLite 会自动创建
         # 把 Path 对象转回字符串（sqlite3 不认识 Path 对象，只认字符串）

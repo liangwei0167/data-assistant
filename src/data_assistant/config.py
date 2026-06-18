@@ -12,7 +12,7 @@ api_key: Optional[str] = None
 """ 函数类型注解"""
 def create_config(
      model: str,
-     api_key: int,
+     api_key: str,
      temperature: float = 0.7,
      max_tokens: int = 4096,
 ) -> dict:
@@ -31,5 +31,4 @@ def get_model_info(model: str) -> dict[str, Union[str, int]]:
         "context_window": 128000,
     }
     return info
-
 
